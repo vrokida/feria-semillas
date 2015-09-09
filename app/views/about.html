@@ -1,0 +1,28 @@
+
+<div >
+	<div clss="page-header">
+		<h1>Semillas</h1>
+	</div>
+	<div class="col-lg-5" ng-repeat="semilla in semillas">
+	  
+	  <div class="semilla panel panel-primary">
+    	
+ <div class="panel-heading">
+        <h1>{{semilla.nombre}} <small>{{semilla.color}}</small> <span class="label label-primary pull-right">#{{semilla.id}}</span></h1>
+
+        </div>
+
+
+    	  <div class="panel-body">
+	        <a href="/#semilla/{{semilla.nombre}}">
+	    		<img src="images/{{semilla.nombre | lowercase}}.jpg" width="160">
+        	</a>
+    	</div>
+    	<div class="panel-footer">
+          <div class="text-center">
+           <span class="label tipo-{{tipo |lowercase}}" ng-repeat="tipo in semilla.tipo" >{{tipo}}
+          </div>
+        </div>
+    </div>
+  	</div>
+</div>

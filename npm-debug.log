@@ -1,0 +1,452 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', '-g', 'divshot-cli' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.36
+4 verbose cache add [ 'divshot-cli', null ]
+5 verbose cache add name=undefined spec="divshot-cli" args=["divshot-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'divshot-cli',
+6 verbose parsed url   path: 'divshot-cli',
+6 verbose parsed url   href: 'divshot-cli' }
+7 silly lockFile a100e37d-divshot-cli divshot-cli
+8 verbose lock divshot-cli /home/veronica/.npm/a100e37d-divshot-cli.lock
+9 silly lockFile a100e37d-divshot-cli divshot-cli
+10 silly lockFile a100e37d-divshot-cli divshot-cli
+11 verbose addNamed [ 'divshot-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f57fbc2c-divshot-cli divshot-cli@
+14 verbose lock divshot-cli@ /home/veronica/.npm/f57fbc2c-divshot-cli.lock
+15 silly addNameRange { name: 'divshot-cli', range: '*', hasData: false }
+16 verbose url raw divshot-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './divshot-cli' ]
+18 verbose url resolved https://registry.npmjs.org/divshot-cli
+19 info trying registry request attempt 1 at 17:03:46
+20 http GET https://registry.npmjs.org/divshot-cli
+21 http 200 https://registry.npmjs.org/divshot-cli
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"371F2UX96B8VS38H0EOU3CNLV"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '288208',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Sat, 22 Aug 2015 22:03:47 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1440281027.126817,VS0,VE200',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'divshot-cli', range: '*', hasData: true }
+24 silly addNameRange versions [ 'divshot-cli',
+24 silly addNameRange   [ '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.0.9',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.2.9',
+24 silly addNameRange     '0.2.10',
+24 silly addNameRange     '0.2.11',
+24 silly addNameRange     '0.2.13',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '0.3.7',
+24 silly addNameRange     '0.3.9',
+24 silly addNameRange     '0.3.10',
+24 silly addNameRange     '0.3.11',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.4.4',
+24 silly addNameRange     '0.4.5',
+24 silly addNameRange     '0.4.6',
+24 silly addNameRange     '0.4.7',
+24 silly addNameRange     '0.4.8',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.6.4',
+24 silly addNameRange     '0.6.6',
+24 silly addNameRange     '0.6.7',
+24 silly addNameRange     '0.6.8',
+24 silly addNameRange     '0.6.9',
+24 silly addNameRange     '0.6.10',
+24 silly addNameRange     '0.6.11',
+24 silly addNameRange     '0.6.12',
+24 silly addNameRange     '0.6.13',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.8.3',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.3',
+24 silly addNameRange     '0.9.4',
+24 silly addNameRange     '0.9.5',
+24 silly addNameRange     '0.9.6',
+24 silly addNameRange     '0.9.8',
+24 silly addNameRange     '0.9.9',
+24 silly addNameRange     '0.9.10',
+24 silly addNameRange     '0.9.11',
+24 silly addNameRange     '0.9.13',
+24 silly addNameRange     '0.9.14',
+24 silly addNameRange     '0.10.0',
+24 silly addNameRange     '0.10.1',
+24 silly addNameRange     '0.11.0',
+24 silly addNameRange     '0.11.1',
+24 silly addNameRange     '0.11.2',
+24 silly addNameRange     '0.12.0',
+24 silly addNameRange     '0.12.1',
+24 silly addNameRange     '0.12.2',
+24 silly addNameRange     '0.12.3',
+24 silly addNameRange     '0.12.4',
+24 silly addNameRange     '0.14.0-rc1',
+24 silly addNameRange     '0.14.2-rc1',
+24 silly addNameRange     '0.14.2-rc2',
+24 silly addNameRange     '0.15.0',
+24 silly addNameRange     '0.15.1',
+24 silly addNameRange     '0.15.2',
+24 silly addNameRange     '0.15.3',
+24 silly addNameRange     '0.15.4',
+24 silly addNameRange     '0.15.5',
+24 silly addNameRange     '0.15.6',
+24 silly addNameRange     '0.15.7',
+24 silly addNameRange     '0.16.0',
+24 silly addNameRange     '0.16.1',
+24 silly addNameRange     '0.16.2',
+24 silly addNameRange     '0.16.3',
+24 silly addNameRange     '0.16.4',
+24 silly addNameRange     '0.16.5',
+24 silly addNameRange     '0.16.6',
+24 silly addNameRange     '0.16.7',
+24 silly addNameRange     '0.17.0',
+24 silly addNameRange     '0.18.0',
+24 silly addNameRange     '0.18.1',
+24 silly addNameRange     '0.18.2',
+24 silly addNameRange     '1.0.0-rc2',
+24 silly addNameRange     '1.0.0-rc3',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.0.4',
+24 silly addNameRange     '1.0.5',
+24 silly addNameRange     '1.0.6',
+24 silly addNameRange     '1.0.7',
+24 silly addNameRange     '1.0.8',
+24 silly addNameRange     '1.0.9',
+24 silly addNameRange     '1.0.10',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.3.1',
+24 silly addNameRange     '1.3.2',
+24 silly addNameRange     '1.3.3',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '1.4.1',
+24 silly addNameRange     '1.4.2-rc1',
+24 silly addNameRange     '1.4.2',
+24 silly addNameRange     '1.4.3',
+24 silly addNameRange     '1.4.6',
+24 silly addNameRange     '1.4.7',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.6.0',
+24 silly addNameRange     '1.7.0',
+24 silly addNameRange     '1.7.1',
+24 silly addNameRange     '1.7.2',
+24 silly addNameRange     '1.7.3',
+24 silly addNameRange     '1.8.0',
+24 silly addNameRange     '1.8.1',
+24 silly addNameRange     '1.9.0',
+24 silly addNameRange     '1.9.1',
+24 silly addNameRange     '1.10.0',
+24 silly addNameRange     '1.10.1',
+24 silly addNameRange     '1.10.2',
+24 silly addNameRange     '1.10.3',
+24 silly addNameRange     '1.10.4',
+24 silly addNameRange     '1.10.5' ] ]
+25 verbose addNamed [ 'divshot-cli', '1.10.5' ]
+26 verbose addNamed [ '1.10.5', '1.10.5' ]
+27 silly lockFile 707a8936-divshot-cli-1-10-5 divshot-cli@1.10.5
+28 verbose lock divshot-cli@1.10.5 /home/veronica/.npm/707a8936-divshot-cli-1-10-5.lock
+29 silly lockFile 62b661cb-vshot-cli-divshot-cli-1-10-5-tgz https://registry.npmjs.org/divshot-cli/-/divshot-cli-1.10.5.tgz
+30 verbose lock https://registry.npmjs.org/divshot-cli/-/divshot-cli-1.10.5.tgz /home/veronica/.npm/62b661cb-vshot-cli-divshot-cli-1-10-5-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/divshot-cli/-/divshot-cli-1.10.5.tgz',
+31 verbose addRemoteTarball   '149be1ca4d4f9609d82e51652e158a9e60aa882a' ]
+32 info retry fetch attempt 1 at 17:03:48
+33 verbose fetch to= /home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/tmp.tgz
+34 http GET https://registry.npmjs.org/divshot-cli/-/divshot-cli-1.10.5.tgz
+35 http 200 https://registry.npmjs.org/divshot-cli/-/divshot-cli-1.10.5.tgz
+36 verbose tar unpack /home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/tmp.tgz
+37 silly lockFile 086e08eb-8614-0-49303907062858343-package tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package
+38 verbose lock tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package /home/veronica/.npm/086e08eb-8614-0-49303907062858343-package.lock
+39 silly lockFile 22fb4874-8614-0-49303907062858343-tmp-tgz tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/tmp.tgz
+40 verbose lock tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/tmp.tgz /home/veronica/.npm/22fb4874-8614-0-49303907062858343-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry index.js
+46 silly gunzTarPerm extractEntry .jshintrc
+47 silly gunzTarPerm extractEntry CHANGELOG.md
+48 silly gunzTarPerm extractEntry bin/divshot.js
+49 silly gunzTarPerm extractEntry lib/cwd.js
+50 silly gunzTarPerm extractEntry lib/environments.js
+51 silly gunzTarPerm extractEntry lib/errors.js
+52 silly gunzTarPerm extractEntry lib/user.js
+53 silly gunzTarPerm extractEntry lib/commands/account.js
+54 silly gunzTarPerm extractEntry lib/commands/files.js
+55 silly gunzTarPerm extractEntry lib/commands/hooks.js
+56 silly gunzTarPerm extractEntry lib/commands/index.js
+57 silly gunzTarPerm extractEntry lib/commands/init.js
+58 silly gunzTarPerm extractEntry lib/commands/env.js
+59 silly gunzTarPerm extractEntry lib/commands/logout.js
+60 silly gunzTarPerm extractEntry lib/commands/open.js
+61 silly gunzTarPerm extractEntry lib/commands/performance.js
+62 silly gunzTarPerm extractEntry lib/commands/promote.js
+63 silly gunzTarPerm extractEntry lib/commands/protect.js
+64 silly gunzTarPerm extractEntry lib/commands/emails.js
+65 silly gunzTarPerm extractEntry lib/commands/pull.js
+66 silly gunzTarPerm extractEntry lib/commands/dump.js
+67 silly gunzTarPerm extractEntry lib/commands/purge.js
+68 silly gunzTarPerm extractEntry lib/commands/domains.js
+69 silly gunzTarPerm extractEntry lib/commands/push.js
+70 silly gunzTarPerm extractEntry lib/commands/destroy.js
+71 silly gunzTarPerm extractEntry lib/commands/rename.js
+72 silly gunzTarPerm extractEntry lib/commands/create.js
+73 silly gunzTarPerm extractEntry lib/commands/request.js
+74 silly gunzTarPerm extractEntry lib/commands/config.js
+75 silly gunzTarPerm extractEntry lib/commands/rollback.js
+76 silly gunzTarPerm extractEntry lib/commands/changelog.js
+77 silly gunzTarPerm extractEntry lib/commands/server.js
+78 silly gunzTarPerm extractEntry lib/commands/cert.js
+79 silly gunzTarPerm extractEntry lib/commands/stats.js
+80 silly gunzTarPerm extractEntry lib/commands/auth.js
+81 silly gunzTarPerm extractEntry lib/commands/status.js
+82 silly gunzTarPerm extractEntry lib/commands/apps.js
+83 silly gunzTarPerm extractEntry lib/commands/unprotect.js
+84 silly gunzTarPerm extractEntry lib/commands/login.js
+85 silly gunzTarPerm extractEntry lib/helpers/bundle_files.js
+86 silly gunzTarPerm extractEntry lib/helpers/check_files_sizes.js
+87 silly gunzTarPerm extractEntry lib/helpers/command.js
+88 silly gunzTarPerm extractEntry lib/helpers/format_user_emails.js
+89 silly gunzTarPerm extractEntry lib/helpers/loading.js
+90 silly gunzTarPerm extractEntry lib/helpers/open_with_fallback.js
+91 silly gunzTarPerm extractEntry lib/logo.txt
+92 silly gunzTarPerm extractEntry lib/templates/error.html
+93 silly gunzTarPerm extractEntry lib/templates/index.html
+94 silly gunzTarPerm extractEntry lib/validators/slug.js
+95 silly gunzTarPerm extractEntry lib/validators/yes_no.js
+96 silly lockFile 086e08eb-8614-0-49303907062858343-package tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package
+97 silly lockFile 086e08eb-8614-0-49303907062858343-package tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package
+98 silly lockFile 22fb4874-8614-0-49303907062858343-tmp-tgz tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/tmp.tgz
+99 silly lockFile 22fb4874-8614-0-49303907062858343-tmp-tgz tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/tmp.tgz
+100 verbose tar pack [ '/home/veronica/.npm/divshot-cli/1.10.5/package.tgz',
+100 verbose tar pack   '/home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package' ]
+101 verbose tarball /home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+102 verbose folder /home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package
+103 silly lockFile 086e08eb-8614-0-49303907062858343-package tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package
+104 verbose lock tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package /home/veronica/.npm/086e08eb-8614-0-49303907062858343-package.lock
+105 silly lockFile 0b471ddb-m-divshot-cli-1-10-5-package-tgz tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+106 verbose lock tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz /home/veronica/.npm/0b471ddb-m-divshot-cli-1-10-5-package-tgz.lock
+107 silly lockFile 086e08eb-8614-0-49303907062858343-package tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package
+108 silly lockFile 086e08eb-8614-0-49303907062858343-package tar:///home/veronica/tmp/npm-10671-iAxb-jkU/1440281028614-0.49303907062858343/package
+109 silly lockFile 0b471ddb-m-divshot-cli-1-10-5-package-tgz tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+110 silly lockFile 0b471ddb-m-divshot-cli-1-10-5-package-tgz tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+111 silly lockFile ef6e05cd-a-npm-divshot-cli-1-10-5-package /home/veronica/.npm/divshot-cli/1.10.5/package
+112 verbose lock /home/veronica/.npm/divshot-cli/1.10.5/package /home/veronica/.npm/ef6e05cd-a-npm-divshot-cli-1-10-5-package.lock
+113 silly lockFile ef6e05cd-a-npm-divshot-cli-1-10-5-package /home/veronica/.npm/divshot-cli/1.10.5/package
+114 silly lockFile ef6e05cd-a-npm-divshot-cli-1-10-5-package /home/veronica/.npm/divshot-cli/1.10.5/package
+115 verbose tar unpack /home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+116 silly lockFile b537dad4-a-npm-divshot-cli-1-10-5-package tar:///home/veronica/.npm/divshot-cli/1.10.5/package
+117 verbose lock tar:///home/veronica/.npm/divshot-cli/1.10.5/package /home/veronica/.npm/b537dad4-a-npm-divshot-cli-1-10-5-package.lock
+118 silly lockFile 0b471ddb-m-divshot-cli-1-10-5-package-tgz tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+119 verbose lock tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz /home/veronica/.npm/0b471ddb-m-divshot-cli-1-10-5-package-tgz.lock
+120 silly gunzTarPerm modes [ '755', '644' ]
+121 silly gunzTarPerm extractEntry package.json
+122 silly gunzTarPerm extractEntry .npmignore
+123 silly gunzTarPerm extractEntry README.md
+124 silly gunzTarPerm extractEntry index.js
+125 silly gunzTarPerm extractEntry .jshintrc
+126 silly gunzTarPerm extractEntry CHANGELOG.md
+127 silly gunzTarPerm extractEntry bin/divshot.js
+128 silly gunzTarPerm extractEntry lib/cwd.js
+129 silly gunzTarPerm extractEntry lib/environments.js
+130 silly gunzTarPerm extractEntry lib/errors.js
+131 silly gunzTarPerm extractEntry lib/user.js
+132 silly gunzTarPerm extractEntry lib/commands/account.js
+133 silly gunzTarPerm extractEntry lib/commands/files.js
+134 silly gunzTarPerm extractEntry lib/commands/hooks.js
+135 silly gunzTarPerm extractEntry lib/commands/index.js
+136 silly gunzTarPerm extractEntry lib/commands/init.js
+137 silly gunzTarPerm extractEntry lib/commands/env.js
+138 silly gunzTarPerm extractEntry lib/commands/logout.js
+139 silly gunzTarPerm extractEntry lib/commands/open.js
+140 silly gunzTarPerm extractEntry lib/commands/performance.js
+141 silly gunzTarPerm extractEntry lib/commands/promote.js
+142 silly gunzTarPerm extractEntry lib/commands/protect.js
+143 silly gunzTarPerm extractEntry lib/commands/emails.js
+144 silly gunzTarPerm extractEntry lib/commands/pull.js
+145 silly gunzTarPerm extractEntry lib/commands/dump.js
+146 silly gunzTarPerm extractEntry lib/commands/purge.js
+147 silly gunzTarPerm extractEntry lib/commands/domains.js
+148 silly gunzTarPerm extractEntry lib/commands/push.js
+149 silly gunzTarPerm extractEntry lib/commands/destroy.js
+150 silly gunzTarPerm extractEntry lib/commands/rename.js
+151 silly gunzTarPerm extractEntry lib/commands/create.js
+152 silly gunzTarPerm extractEntry lib/commands/request.js
+153 silly gunzTarPerm extractEntry lib/commands/config.js
+154 silly gunzTarPerm extractEntry lib/commands/rollback.js
+155 silly gunzTarPerm extractEntry lib/commands/changelog.js
+156 silly gunzTarPerm extractEntry lib/commands/server.js
+157 silly gunzTarPerm extractEntry lib/commands/cert.js
+158 silly gunzTarPerm extractEntry lib/commands/stats.js
+159 silly gunzTarPerm extractEntry lib/commands/auth.js
+160 silly gunzTarPerm extractEntry lib/commands/status.js
+161 silly gunzTarPerm extractEntry lib/commands/apps.js
+162 silly gunzTarPerm extractEntry lib/commands/unprotect.js
+163 silly gunzTarPerm extractEntry lib/commands/login.js
+164 silly gunzTarPerm extractEntry lib/helpers/bundle_files.js
+165 silly gunzTarPerm extractEntry lib/helpers/check_files_sizes.js
+166 silly gunzTarPerm extractEntry lib/helpers/command.js
+167 silly gunzTarPerm extractEntry lib/helpers/format_user_emails.js
+168 silly gunzTarPerm extractEntry lib/helpers/loading.js
+169 silly gunzTarPerm extractEntry lib/helpers/open_with_fallback.js
+170 silly gunzTarPerm extractEntry lib/logo.txt
+171 silly gunzTarPerm extractEntry lib/templates/error.html
+172 silly gunzTarPerm extractEntry lib/templates/index.html
+173 silly gunzTarPerm extractEntry lib/validators/slug.js
+174 silly gunzTarPerm extractEntry lib/validators/yes_no.js
+175 silly lockFile b537dad4-a-npm-divshot-cli-1-10-5-package tar:///home/veronica/.npm/divshot-cli/1.10.5/package
+176 silly lockFile b537dad4-a-npm-divshot-cli-1-10-5-package tar:///home/veronica/.npm/divshot-cli/1.10.5/package
+177 silly lockFile 0b471ddb-m-divshot-cli-1-10-5-package-tgz tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+178 silly lockFile 0b471ddb-m-divshot-cli-1-10-5-package-tgz tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+179 verbose chmod /home/veronica/.npm/divshot-cli/1.10.5/package.tgz 644
+180 verbose chown /home/veronica/.npm/divshot-cli/1.10.5/package.tgz [ 1000, 1000 ]
+181 silly lockFile 62b661cb-vshot-cli-divshot-cli-1-10-5-tgz https://registry.npmjs.org/divshot-cli/-/divshot-cli-1.10.5.tgz
+182 silly lockFile 62b661cb-vshot-cli-divshot-cli-1-10-5-tgz https://registry.npmjs.org/divshot-cli/-/divshot-cli-1.10.5.tgz
+183 silly lockFile 707a8936-divshot-cli-1-10-5 divshot-cli@1.10.5
+184 silly lockFile 707a8936-divshot-cli-1-10-5 divshot-cli@1.10.5
+185 silly lockFile f57fbc2c-divshot-cli divshot-cli@
+186 silly lockFile f57fbc2c-divshot-cli divshot-cli@
+187 silly resolved [ { name: 'divshot-cli',
+187 silly resolved     description: 'CLI for Divshot',
+187 silly resolved     version: '1.10.5',
+187 silly resolved     dependencies:
+187 silly resolved      { async: '^0.9.0',
+187 silly resolved        booly: '^1.0.2',
+187 silly resolved        bytes: '^2.0.0',
+187 silly resolved        chalk: '^1.0.0',
+187 silly resolved        clone: '^1.0.0',
+187 silly resolved        'copy-files': '^0.1.0',
+187 silly resolved        'cozy-slug': '0.2.2',
+187 silly resolved        'divshot-api': '1.3.x',
+187 silly resolved        'divshot-dumper': '1.1.0',
+187 silly resolved        'divshot-push': '1.4.2',
+187 silly resolved        'exit-hook': '^1.1.1',
+187 silly resolved        feedback: '^0.3.2',
+187 silly resolved        'fs-extra': '^0.18.0',
+187 silly resolved        'home-dir': '^1.0.0',
+187 silly resolved        inquirer: '^0.8.0',
+187 silly resolved        'join-path': '^1.0.0',
+187 silly resolved        jsonlint: '^1.6.2',
+187 silly resolved        lodash: '^2.4.1',
+187 silly resolved        marked: '^0.3.2',
+187 silly resolved        'marked-terminal': '^1.1.1',
+187 silly resolved        'mime-types': '^2.0.2',
+187 silly resolved        mkdirp: '0.5.x',
+187 silly resolved        moment: '^2.8.3',
+187 silly resolved        nash: '0.3.x',
+187 silly resolved        open: '0.0.5',
+187 silly resolved        pluralize: '^1.0.3',
+187 silly resolved        'pretty-print': '^1.0.0',
+187 silly resolved        progress: '^1.1.8',
+187 silly resolved        promptly: '^0.2.0',
+187 silly resolved        read: '^1.0.5',
+187 silly resolved        regular: '^0.1.6',
+187 silly resolved        request: '^2.44.0',
+187 silly resolved        sizer: '^0.1.1',
+187 silly resolved        slash: '^1.0.0',
+187 silly resolved        superstatic: '1.2.1',
+187 silly resolved        touch: '0.0.3',
+187 silly resolved        'update-notifier': '^0.2.2',
+187 silly resolved        writestreamp: '^0.1.0' },
+187 silly resolved     devDependencies: { jshint: '~2.6.0' },
+187 silly resolved     scripts: { test: 'node_modules/.bin/mocha --recursive --reporter spec ./test' },
+187 silly resolved     author: { name: 'Divshot' },
+187 silly resolved     homepage: 'http://divshot.com',
+187 silly resolved     repository:
+187 silly resolved      { type: 'git',
+187 silly resolved        url: 'https://github.com/divshot/divshot-cli.git' },
+187 silly resolved     bugs: { url: 'https://github.com/divshot/divshot-cli/issues' },
+187 silly resolved     keywords: [ 'divshot', 'hosting', 'static' ],
+187 silly resolved     preferGlobal: 'true',
+187 silly resolved     bin: { divshot: 'bin/divshot.js' },
+187 silly resolved     main: 'bin/divshot.js',
+187 silly resolved     readme: '# Divshot CLI [![NPM version](http://img.shields.io/npm/v/divshot-cli.svg?style=flat-square)](http://npmjs.org/package/divshot-cli) ![NPM download count](https://img.shields.io/npm/dm/divshot-cli.svg?style=flat-square)\n\nCLI for Divshot\n\n#### [Commands](#commands-1)\n\n* [account](#account) - display basic account details\n* [account:redeem](#accountredeem) - redeem a voucher and credit it to your account\n* [apps](#apps) - list your apps\n* [auth:token](#authtoken) - print out your access token\n* [cert](#cert) - upload an SSL certificate\n* [changelog](#changelog) - view the cli changelog\n* [config](#config) - list, set, or remove keys and values from your app\n* [config:add](#configadd) - add a value to the config file\n* [config:remove](#configremove) - remove a value from the config file\n* [create](#create) - create a new app\n* [destroy](#destroy) - delete an app\n* [domains](#domains) - list your domains\n* [domains:add](#domainsadd) - add a custom domain to your app\n* [domains:remove](#domainsremove) - remove a custom domain from your app\n* [emails](#emails) - list emails associated with your app\n* [emails:add](#emailsadd) - add an email to your app\n* [emails:remove](#emailsremove) - remove an email from your app\n* [emails:resend](#emailsresend) - resend the confirmation email\n* [env](#env) - list environment variables for your app\n* [env:add](#envadd) - add environment variables to your app\n* [env:remove](#envremove) - remove environment variables from your app\n* [env:pull](#envpull) - copy environment data to your local environment\n* [files](#files) - list the current files associated with the given environment\n* [help](#help) - get help with common commands\n* [hooks](#hooks) - list webhooks\n* [hooks:add](#hooksadd) - add a webhook\n* [hooks:remove](#hooksremove) - remove a webhook\n* [hooks:pause](#hookspause) - pause a webhook\n* [hooks:resume](#hooksresume) - resume a webhook\n* [init](#init) - step by step guide to initiate an app in the current directory\n* [login](#login) - login to Divshot\n* [logout](#logout) - logout from Divshot\n* [open](#open) - open the current app in your default browser\n* [performance](#performance) - show if current app has performance status\n* [performance:on](#performanceon) - give the current app performance status\n* [performance:off](#performanceoff) - remove performance status from the current app\n* [promote](#promote) - promote one environment to another\n* [protect](#protect) - add http basic auth to any environment\n* [pull](#pull) - download the current files for a given environment into a directory\n* [purge](#purge) - purge the cache for your app\n* [push](#push) - deploy your app to the specified environment\n* [rename](#rename) - change the name of an app\n* [rollback](#rollback) - rollback an environment to a previous release\n* [server](#server) - start server for local dev\n* [stats](#stats) - show stats info for your app\n* [status](#status) - show release info for each environment\n* [unprotect](#unprotect) - remove basic auth from an environment on your app\n\n#### Command Options\n\n* `-h, --help` - show the help menu\n* `-v, --version` - show current version of Divshot CLI\n* `-t, --token [token]` - manually pass access token\n* `-a, --app [app name]` - manually supply an app name\n* `-c, --config [config]` - use a different config file\n* `-o, --org [org name]` - set command to operate on the given organization\n* `--timeout [timeout]` - set the command timeout in milliseconds\n\n#### Environments\n\n* ` development ` - this is the default environment during app deployment\n* ` staging `\n* ` production `\n\nEach environment is immediately available and deployed at the following URL scheme: **http://[environment].[app name].divshot.io**. You may reference [Divshot Builds and Environments](http://docs.divshot.io/guides/builds) for a more detailed explanation.\n\n## Install\n\n```\nnpm install divshot-cli -g\n```\n\n## Commands\n\n### account\n\n```\ndivshot account\n```\n\nDisplay your basic account details.\n\n### account:redeem\n\n```\ndivshot account:redeem [voucher code]\n```\n\nRedeem a voucher and credit it to your account.\n\n### apps\n\n```\ndivshot apps\n```\n\nList your Divshot apps.\n\n### auth:token\n\n```\ndivshot auth:token\n```\n\nPrint out your access token. This token is used to authenticate you with the Divshot API.\n\n### config\n\n```\ndivshot config\n```\n\nList the keys and values from your Divshot app config file. See [Divshot configuration reference](http://docs.divshot.io/guides/configuration) for more details on these values.\n\n### cert\n\n```\ndivshot cert [path/to/certificate.crt] [path/to/key.key]\n```\n\nUpload your application\'s SSL certificate.\n\n### changelog\n\n```\ndivshot changelog\n```\n\nView the Divshot CLI changelog\n\n### config:add\n\n```\ndivshot config:add [key] [value]\n```\n\nAdd a value to your Divshot app config file. See [Divshot configuration reference](http://docs.divshot.io/guides/configuration) for more details on these values.\n\n### config:remove\n\n```\ndivshot config:remove [key]\n```\n\nRemove a value from your Divshot app config file. See [Divshot configuration reference](http://docs.divshot.io/guides/configuration) for more details on these values.\n\n### create\n\n```\ndivshot create [app name]\n```\n\nCreate a new Divshot app. If no app name is provided, it attempts to read from your Divshot configuration file. It that does not exist, it will prompt you for an app name. You can easily create a new Divshot app locally and remotely by using [` divshot init `](#init).\n\n### destroy\n\n\n```\ndivshot destroy [app name]\n```\n\nDelete a Divshot app. This is permanent and immediate. It removes not only your files, but it disables the subdomain associated with the application.\n\n### domains\n\n```\ndivshot domains\n```\n\nSee a list of all custom domains associated with your app. For more in-depth usage, see [Divshot Custom Domains](http://docs.divshot.io/guides/domains).\n\n### domains:add\n\n```\ndivshot domains:add [environment] [domain]\n```\n\nAdd a custom domain to your app. You may see a list of your domains with [` divshot domains `](#domains). For more in-depth usage, see [Divshot Custom Domains](http://docs.divshot.io/guides/domains).\n\n`environment` is optional and defaults to `production`.\n\n### domains:remove\n\n```\ndivshot domains:remove [domain]\n```\n\nRemove a custom domain from your app. You may see a list of your domains with [` divshot domains `](#domains). For more in-depth usage, see [Divshot Custom Domains](http://docs.divshot.io/guides/domains).\n\n### emails\n\n```\ndivshot emails\n```\n\nShow any emails associated with this app. Also shows which emails have been approved and which emails are pending authorization by the email owner.\n\n### emails:add\n\n```\ndivshot emails:add [email]\n```\n\nAdd an email to the current app. Once added, the email will receive an email that the email owner must use to authorize the email address.\n\n### emails:remove\n\n```\ndivshot emails:remove [email]\n```\n\nRemove an email from the current app.\n\n### emails:resend\n\n```\ndivshot emails:resend [email]\n```\n\nResend the the authorization email for the given email address.\n\n### env\n\n```\ndivshot env [environment]\n```\n\nList the key/value pairs of environment variables associated with the given environment on the current app. See [Environment Variables](http://docs.divshot.com/guides/environment-variables) for more details.\n\n### env:add\n\n```\ndivshot env:add [environment] KEY=value KEY2=value ...\n```\n\nAdd environment variables to the current app. See [Environment Variables](http://docs.divshot.com/guides/environment-variables) for more details.\n\n### env:remove\n\n```\ndivshot env:remove [environment] KEY1 KEY2 ...\n```\n\nRemove environment variables from the current app. See [Environment Variables](http://docs.divshot.com/guides/environment-variables) for more details.\n\n### env:pull\n\n```\ndivshot env:pull [environment]\n```\n\nCopy environment data to your local environment. Creates a `.env.json` file that is available to your app with `__env.js` or `__env.json`. See [Environment Variables](http://docs.divshot.com/guides/environment-variables) for more details.\n\n### files\n\n```\ndivshot files [environment]\n```\n\nList the files currently associated with the given environment. These are the files that were deployed to Divshot using [divshot push](#push)\n\n### help\n\n```\ndivshot help\n```\n\nGet help with common Divshot commands. Lists all the available commands.\n\nIf you need help with a specific command, you may specify that command after the word *help*.\n\n```\ndivshot help [command]\n```\n\n#### hooks\n\n```\ndivshot hooks\n```\n\nGet a list of webhooks for the current app. For more documentation on using Divshot webhooks, see the [Webhook Documentation](http://docs.divshot.com/guides/webhooks).\n\n#### hooks:add\n\n```\ndivshot hooks:add [url]\n```\n\nAdd a webhook to the current app. For more documentation on using Divshot webhooks, see the [Webhook Documentation](http://docs.divshot.com/guides/webhooks).\n\n#### hooks:remove\n\n```\ndivshot hooks:remove [optional url]\n```\n\nRemove a webhook from the current app. If no url is provided, you will be prompted with a list of your webhooks to select for removal. For more documentation on using Divshot webhooks, see the [Webhook Documentation](http://docs.divshot.com/guides/webhooks).\n\n#### hooks:pause\n\n```\ndivshot hooks:pause [optional url]\n```\n\nPause a webhook without deleting it for the current app. If no url is provided, you will be prompted with a list of your webhooks to select to pause. For more documentation on using Divshot webhooks, see the [Webhook Documentation](http://docs.divshot.com/guides/webhooks).\n\n#### hooks:resume\n\n```\ndivshot hooks:resume [optional url]\n```\n\nResume a webhook for the current app. If no url is provided, you will be prompted with a list of your webhooks to select to resume. For more documentation on using Divshot webhooks, see the [Webhook Documentation](http://docs.divshot.com/guides/webhooks).\n\n### init\n\n```\ndivshot init\n```\n\nStep by step guide to initiate an app in the current directory. The steps you are taken through are as follows:\n\n1. ` name ` - app name\n2. ` root ` - the root directory of the app relative to the current directory\n3. ` error page ` - the relative path or absolute url of an error/not found page to display in your app\n4. ` create app ` - do you want to create a new app on Divshot upon completing these steps? (As opposed to only creating the app locally)\n\nOnce you initiated your app, the *root* directory will now contain a ` divshot.json ` file with your settings. You may reference [Divshot configuration reference](http://docs.divshot.io/guides/configuration) for a more detailed description of this file.\n\n### login\n\n```\ndivshot login\n```\n\nLogin to your Divshot account.\n\n### logout\n\n```\ndivshot logout\n```\n\nLogout of your account.\n\n### open\n\n```\ndivshot open [optional environment]\n```\n\nOpen app in your default browser.\n\nExample:\n\n* ` divshot open ` - Opens the production, CDN environment of your app\n* ` divshot open development ` - Opens up the development environment of your app\n\n### performance\n\n```\ndivshot performance\n```\n\nShow if current app has performance status. For more details on apps and performance status see [High Performance Mode Documenation](http://docs.divshot.io/guides/high-performance)\n\n\n### performance:on\n\n```\ndivshot performance:on\n```\n\nGive the current app performance status. For more details on apps and performance status see [High Performance Mode Documenation](http://docs.divshot.io/guides/high-performance)\n\n### performance:off\n\n```\ndivshot performance:off\n```\n\nRemove performance status from the current app. For more details on apps and performance status see [High Performance Mode Documenation](http://docs.divshot.io/guides/high-performance)\n\n\n### promote\n\n```\ndivshot promote [from env] [to env]\n```\n\nPromote one environment to another. A typical use case for this command would be to deploy your staging app to production without having to redeploy all the files. See [environments](#environments) for a list of available environments.\n\nExample promotions\n\n* ` divshot promote development staging ` - development -> staging\n* ` divshot promote staging production ` - staging -> production\n\n### protect\n\n```\ndivshot protect [environment] [username:password]\n```\n\nProtect your development and staging environments with [http authentication](http://en.wikipedia.org/wiki/Basic_access_authentication).\n\n### pull\n\n```\ndivshot pull [environment] [optional directory]\n```\n\nDownload all the files currently associated with the given environment. If no directory is provided, it defaults to the current directory. These files are the files deployed to Divshot using [divshot push](#push)\n\n### purge\n\n```\ndivshot purge [optional environment]\n```\n\nPurge the cache for your app. If no environment is provided, all caches for all your environments will be purged.\n\n### push\n\n```\ndivshot push [environment]\n```\n\nDeploy your app to the specified environment. If no environment is given, we assume that you mean *production*. The entire push process takes as long as the number of files in your project. Once deployed, your app is immediately available. See [environments](#environments) for a list of available environments.\n\n### rename\n\n```\ndivshot rename [new app name]\n```\n\nRename your app. This changes the subdomain on Divshot and updates your configuration file. It is permanent once complete.\n\n### rollback\n\n```\ndivshot rollback [environment] [version]\n```\n\nRollback the given environment to a previous release. This is useful when buggy code has been deployed. Divshot automatically detects and rolls back to your previous release. See [environments](#environments) for a list of available environments.\n\nOptionally rollback to a specific version of your app.\n\n### server\n\n```\ndivshot server\n```\n\nStart a server for local development. This local server mimics the capabilities of static sites running on [Divshot](http://divshot.io). Refer to the [Divshot documentation](http://docs.divshot.io/guides/configuration) for configuration instructions.\n\nServer command options:\n\n* ` -p, --port [port]` - specify the port for the server to run. Defaults to *3474*\n* ` -h, --host [hostname]` - specify a custom hostname for your app to run at. Defaults to *localhost*\n\n### stats\n\n```\ndivshot stats\n```\n\nShow stats infor for your app\n\n### status\n\n```\ndivshot status [environment]\n```\n\nShow release info for each environment. If no environment is specified, the latest release info will be listed for each environment. If an environment is specified, it will list the last few releases for that environment. See [environments](#environments) for a list of available environments.\n\n### unprotect\n\n```\ndivshot unprotect [environment]\n```\n\nUnprotect your development and staging environments and remove the authentication.\n\n\n\n',
+187 silly resolved     readmeFilename: 'README.md',
+187 silly resolved     _id: 'divshot-cli@1.10.5',
+187 silly resolved     dist: { shasum: '7a8439a27958850c96e0d87df193f93dccf33500' },
+187 silly resolved     _from: 'divshot-cli@',
+187 silly resolved     _resolved: 'https://registry.npmjs.org/divshot-cli/-/divshot-cli-1.10.5.tgz' } ]
+188 info install divshot-cli@1.10.5 into /usr/lib
+189 info installOne divshot-cli@1.10.5
+190 info /usr/lib/node_modules/divshot-cli unbuild
+191 verbose tar unpack /home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+192 silly lockFile 2901f13e-usr-lib-node-modules-divshot-cli tar:///usr/lib/node_modules/divshot-cli
+193 verbose lock tar:///usr/lib/node_modules/divshot-cli /home/veronica/.npm/2901f13e-usr-lib-node-modules-divshot-cli.lock
+194 silly lockFile 0b471ddb-m-divshot-cli-1-10-5-package-tgz tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz
+195 verbose lock tar:///home/veronica/.npm/divshot-cli/1.10.5/package.tgz /home/veronica/.npm/0b471ddb-m-divshot-cli-1-10-5-package-tgz.lock
+196 silly gunzTarPerm modes [ '755', '644' ]
+197 error Error: EACCES, mkdir '/usr/lib/node_modules/divshot-cli'
+197 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/divshot-cli']
+197 error   errno: 3,
+197 error   code: 'EACCES',
+197 error   path: '/usr/lib/node_modules/divshot-cli',
+197 error   fstream_type: 'Directory',
+197 error   fstream_path: '/usr/lib/node_modules/divshot-cli',
+197 error   fstream_class: 'DirWriter',
+197 error   fstream_stack:
+197 error    [ '/usr/lib/node_modules/fstream/lib/dir-writer.js:36:23',
+197 error      '/usr/lib/node_modules/mkdirp/index.js:37:53',
+197 error      'Object.oncomplete (fs.js:108:15)' ] }
+198 error Please try running this command again as root/Administrator.
+199 error System Linux 4.0.8-300.fc22.x86_64
+200 error command "node" "/usr/bin/npm" "install" "-g" "divshot-cli"
+201 error cwd /home/veronica/Documentos/angular/cursoMejorandola/semillas
+202 error node -v v0.10.36
+203 error npm -v 1.3.6
+204 error path /usr/lib/node_modules/divshot-cli
+205 error fstream_path /usr/lib/node_modules/divshot-cli
+206 error fstream_type Directory
+207 error fstream_class DirWriter
+208 error code EACCES
+209 error errno 3
+210 error stack Error: EACCES, mkdir '/usr/lib/node_modules/divshot-cli'
+211 error fstream_stack /usr/lib/node_modules/fstream/lib/dir-writer.js:36:23
+211 error fstream_stack /usr/lib/node_modules/mkdirp/index.js:37:53
+211 error fstream_stack Object.oncomplete (fs.js:108:15)
+212 verbose exit [ 3, true ]

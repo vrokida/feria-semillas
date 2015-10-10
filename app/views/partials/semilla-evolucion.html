@@ -1,0 +1,9 @@
+<div class="text-center" ng-repeat="sem in semilla.evolucion">
+    <a href="#">
+      <img src="images/{{sem | lowercase}}.jpg" width="160">
+      <p>
+        <strong>{{sem}}</strong>
+      </p>
+    </a>
+      <span ng-hide="$last" class="glyphicon glyphicon-arrow-down"></span>
+</div>

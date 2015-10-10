@@ -1,0 +1,9 @@
+ <ul class="list-group">
+    <li class="list-group-item"><strong>Peso</strong> 
+    <span class="pull-right">{{semilla.estadisticas.peso}}</span></li>
+    <li class="list-group-item"><strong>Enfermedad</strong>                
+      <span class="pull-right">
+        <span class="label label-primary" ng-repeat="plaga in semilla.estadisticas.enfermedad">{{plaga}}
+        </span>
+    </li>
+</ul>

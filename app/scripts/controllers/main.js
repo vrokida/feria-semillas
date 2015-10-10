@@ -13,6 +13,9 @@ angular.module('semillasApp')
     $scope.semilla = [];
  	var nombre=$routeParams.nombre;
 
+ 
+ 
+
 function filtarPorNombre(nombre, data){
   				
 			var resultados= data.filter(function(m){		

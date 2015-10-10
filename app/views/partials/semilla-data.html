@@ -1,0 +1,18 @@
+ <ul class="list-group">    
+      <li class="list-group-item">
+        <strong>Ubicación</strong>                   
+        <span class="pull-right">
+          <span class="label label-primary" ng-repeat="ubicacion in semilla.ubicacion">{{ubicacion}}
+          </span>
+        </span> 
+      </li>                
+      <li class="list-group-item"><strong>Tamaño</strong> 
+          <span class="pull-right">{{semilla.tamanio}}</span></li>
+      <li class="list-group-item">
+        <strong>Tipo</strong> 
+        <span class="pull-right">
+          <span class="label tipo-{{tipo |lowercase}}" ng-repeat="tipo in semilla.tipo" >{{tipo}}
+          </span>
+        </span> 
+      </li>                    
+  </ul>

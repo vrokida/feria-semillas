@@ -23,9 +23,9 @@ angular
         controllerAs: 'about'
       })
       .when('/semilla/:nombre', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+        templateUrl: 'views/main.html'
+       
+        
       })
       .otherwise({
         redirectTo: '/'

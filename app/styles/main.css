@@ -186,3 +186,11 @@ body {
 .semilla img {
   width: 300px;
 }
+
+.ng-invalid.ng-dirty {
+  border-color: #D9230F;
+}
+
+.ng-valid.ng-dirty {
+  border-color: #468847;
+}

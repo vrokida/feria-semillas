@@ -1,0 +1,29 @@
+[
+  {
+    "id": "001",
+    "nombre": "Frejol",
+    "color": "Rojo",
+    "ubicacion":["Imbabura","Pichincha"],
+    "tamanio":"Mediano",
+    "tipo":["Criolla","Mejorada"],
+    "estadisticas":{
+    		"peso": "25 g",
+    		"enfermedad": ["Mosca blanca", "Roya"]
+    	},
+    "evolucion":["Rosa", "Mezclado"]
+  },
+ {
+    "id": "002",
+    "nombre": "Maiz",
+    "color": "Blanco",
+    "ubicacion":["Cotopaxi","Pichincha","Imababura"],
+    "tamanio":"Pequeño",
+    "tipo":["Hibridos","Mejorada"],
+    "estadisticas":{
+    		"peso": "10 g",
+    		"enfermedad": ["Gusano barrenador", "Roya"]
+    	},
+    "evolucion":["Morocho", "Morochillo"]
+  }
+   
+]

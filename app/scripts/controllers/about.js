@@ -10,7 +10,7 @@
 angular.module('semillasApp')
   .controller('AboutCtrl',['$scope','$http', function ($scope,$http) {
   	$scope.semillas=[];
-  	$http.get('/semillas.json')
+  	$http.get('./semillas.json')
   		.success(function (data){
   				$scope.semillas=data;	
   		});

@@ -29,7 +29,7 @@ function filtarPorNombre(nombre, data){
 			}
  }
 
-    $http.get('/semillas.json')
+    $http.get('./semillas.json')
   		.success(function (data){
   				$scope.semillas=data;	
   				$scope.semilla=filtarPorNombre(nombre,data);

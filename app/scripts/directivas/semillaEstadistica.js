@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('semillasApp')
   .directive('semillaEstadistica', function () {
   
